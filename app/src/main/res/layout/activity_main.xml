@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="myName"
+            type="com.example.lorente_exer4_slambook.MyName" />
+        <variable
+            name="myAge"
+            type="com.example.lorente_exer4_slambook.MyAge" />
+
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hello"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="15sp"
+                android:text="@string/header"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Name_header"
+                android:text="@string/name_text"
+                style="@style/wew2" />
+
+            <EditText
+                android:id="@+id/name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginBottom="15sp"
+                android:ems="10"
+                android:hint="@string/enter_name_hint"
+                android:inputType="textPersonName"
+                android:importantForAutofill="no"
+                />
+
+            <TextView
+                android:id="@+id/nickname_header"
+                style="@style/wew2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nickname_text" />
+
+            <EditText
+                android:id="@+id/nickname_text"
+                style="@style/wew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/enter_nickname_hint"
+                android:inputType="textPersonName"
+               />
+
+            <TextView
+                android:id="@+id/age_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:text="@string/age_text"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/age_text"
+                style="@style/wew"
+                android:hint="@string/enter_age_hint"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/bday_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:text="@string/bday_text"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/birthday_text"
+                style="@style/wew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/enter_bday_hint"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/phone_header"
+                style="@style/wew2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_text" />
+
+            <EditText
+                android:id="@+id/phone_text"
+                style="@style/wew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/enter_phone_hint"
+                android:inputType="phone"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/email_header"
+                style="@style/wew2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_text" />
+
+            <EditText
+                android:id="@+id/email_text"
+                style="@style/wew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/enter_email_hint"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/course_header"
+                style="@style/wew2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/course_text" />
+
+            <EditText
+                android:id="@+id/course_text"
+                style="@style/wew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/enter_course_hint"
+                android:inputType="textPersonName"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/dream_header"
+                style="@style/wew2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dream_text" />
+
+            <EditText
+                android:id="@+id/dream_text"
+                style="@style/wew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/enter_dream_hint"
+                android:inputType="textPersonName"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/crush_header"
+                style="@style/wew2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/crush_text" />
+
+            <EditText
+                android:id="@+id/crush_text"
+                style="@style/wew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/enter_crush_hint"
+                android:inputType="textPersonName"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/message_header"
+                style="@style/wew2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/message_text" />
+
+            <EditText
+                android:id="@+id/message_text"
+                style="@style/wew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:importantForAutofill="no" />
+
+            <Button
+                android:id="@+id/done_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="#2196F3"
+                android:text="@string/done"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/name_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:text="@={myName.name}"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/nickname_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@={myName.nickname}"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/age_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="21sp"
+                android:visibility="gone"
+                android:text="@={myAge.age}"/>
+
+            <TextView
+                android:id="@+id/thank_you"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:text="@string/thanks"
+                android:textAlignment="center"
+                android:textSize="32sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+</layout>

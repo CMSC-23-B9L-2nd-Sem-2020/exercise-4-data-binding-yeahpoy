@@ -1,0 +1,2 @@
+rootProject.name='lorente_exer4_Slambook'
+include ':app'

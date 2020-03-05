@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">lorente_exer4_Slambook</string>
+    <string name="header">Hello!</string>
+    <string name="name_text"> Name </string>
+    <string name="nickname_text"> Nickname </string>
+    <string name="age_text"> Age </string>
+    <string name="bday_text"> When is your birthday </string>
+    <string name="phone_text"> Phone Number </string>
+    <string name="email_text"> What is your email address? </string>
+    <string name="course_text"> What is your course? </string>
+    <string name="dream_text"> What is your dream? </string>
+    <string name="crush_text"> Who is your secret crush? </string>
+    <string name="message_text"> What is your message for me? </string>
+    <string name="thanks"> Thank you for answering! </string>
+
+    <string name="enter_name_hint">Enter Name</string>
+    <string name="enter_nickname_hint">Enter Nickname</string>
+    <string name="enter_age_hint">Enter Age</string>
+    <string name="enter_bday_hint">Enter Birthday</string>
+    <string name="enter_phone_hint">Enter Phone Number</string>
+    <string name="enter_email_hint">Enter Email Address</string>
+    <string name="enter_course_hint">Enter Courses</string>
+    <string name="enter_dream_hint">Enter Dream</string>
+    <string name="enter_crush_hint">Enter Name Of Crush</string>
+    <string name="done"> DONE </string>
+    <string name="name">Name</string>
+    <string name="_9">9</string>
+</resources>
